@@ -1,0 +1,6 @@
+MAIN="src/main.py"
+EXEC="ecgen"
+DIST="bin"
+
+[compile]
+pyinstaller --onefile --distpath $DIST --name $EXEC $MAIN
